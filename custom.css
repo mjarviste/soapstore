@@ -1,0 +1,89 @@
+.lnr {
+    display: inline-block;
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.05em;
+    stroke-width: 2;
+}
+
+.lnr-cart {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.lnr-magnifier {
+    color: #000000;   
+}
+
+.navbar-nav li {
+    margin-right: 3em;
+}
+
+section {
+    margin-top: 40px;
+}
+
+.h {
+    text-align: center;
+}
+
+.card-body {
+    align-content: center;
+}
+
+footer {
+    margin-top: 60px;
+    padding: 5em;
+}
+.social-logo{
+    margin: 3px
+}
+.social-logo img {
+    width: 50px;
+}
+.background-img {
+    background-image: url(img/soapmakers.jpg);
+    background-repeat: no-repeat;
+    min-height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+    position: relative;
+    color: white;
+    background-size: 100%
+
+}
+.about-us {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Gentium Basic", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    letter-spacing: 2px;
+    padding: 10px;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+.carousel  {
+  max-height: 250px;
+  overflow: hidden;
+}
+.carousel-item img {
+    margin:auto;
+    width: 100%;
+    height: auto;
+}
+.card-body img {
+    margin:auto;
+    width: 100%;
+    height: auto;
+}
+@media only screen and (min-width: 950px) {
+    .background-img {
+        background-position: top;
+    }
+
+}
